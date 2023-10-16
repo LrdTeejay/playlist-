@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    padding: 1.3em;
+}
+.header{
+justify-content: space-between;
+display: flex;
+}
+#pic{
+    margin: 5% auto;
+    width: 80%;
+    height: 260px;
+  /*background-color: blue;*/
+    background-image: url("/juice_two.jpeg"); 
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    color: transparent;
+    background-image: linear-gradient(to right, yellow, red, green, blue, yellow);
+    -webkit-background-clip: text;
+    margin-bottom: .3em;
+}
+h4{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1em;
+}
+marquee{
+    margin: auto 10%;
+}
+.span{
+    justify-content: center;
+    display: flex;    
+    flex-direction: space-around;
+    margin-top: 1.2em;
+    margin-bottom: 1.3em;
+}
+.span div{
+    margin-left: 4%;
+    text-align: center;
+    font-size: .8rem;
+}
+audio{
+    width: 250px;
+}
+.material-symbols-outlined{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.material-symbols-outlined:hover{
+    cursor: pointer;
+}
+.music{
+    text-align: center;
+    margin-top: .5em;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+}
+#fav{
+  color: red;
+}
+.controls .material-symbols-outlined{
+    margin: 3% 3%;
+    font-size: 50px;
+}
+.controls .material-symbols-outlined:hover{
+    cursor: pointer;
+}
